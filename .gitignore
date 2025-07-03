@@ -1,0 +1,24 @@
+## 🗂️ .gitignore File
+
+This file tells Git which files to skip when uploading to GitHub:
+
+```gitignore
+# Skip Python junk
+*.py[cod]
+__pycache__/
+
+# Ignore Jupyter Notebook backup files
+.ipynb_checkpoints/
+
+# Ignore saved models and datasets
+models/
+dataset/
+
+# Skip virtual environment folders
+venv/
+.env/
+
+# Skip common system files
+.DS_Store
+Thumbs.db
+```
